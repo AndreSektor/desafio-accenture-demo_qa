@@ -1,11 +1,9 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
 import FormPage from '../../../support/page/02-forms_page'
+import base from '../../../support/page/base'
 
 Given("I visit demoqa.com", () => {
-  cy.visit(Cypress.env('URL_BASE'));
-        Cypress.on(
-            "uncaught:exception", (err, Runnable) => false
-        );
+  base.accessPage()
 });
 
 When("I choose the Forms option on the home page", () => {
