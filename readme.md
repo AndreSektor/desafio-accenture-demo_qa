@@ -121,6 +121,22 @@ npx cypress run --env TAGS=@api
 npx cypress run --env TAGS=@regression
 ```
 
+## 🔒 Versões Travadas
+
+Para garantir que todos os desenvolvedores e ambientes de CI utilizem exatamente as mesmas versões das dependências, o projeto utiliza:
+
+- **Versões exatas** especificadas no arquivo `package.json`.
+
+## 📦 Dependências Principais
+
+- **Cypress:** `14.0.2`
+- **Cucumber Preprocessor:** `22.1.0`
+- **Esbuild Preprocessor:** `2.2.5`
+- **Cypress Drag Drop:** `2.3.0`
+- **Cypress File Upload:** `5.0.8`
+- **Faker:** `9.4.0`
+- **Cypress Tags:** `1.2.2`
+- **Node:** `20.18.0`
 
 ## Autor
 
