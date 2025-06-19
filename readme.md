@@ -80,8 +80,10 @@ npm install
 
 <h3>TOOLS QA</h1>
 <p>
-<h4> Forms: Pratice Forms ✅ 
-<h4> Alert: Browser Windows ✅  
+<h4> 1 - Forms: Pratice Forms ✅ 
+<h6> -(Preenchimento completo do formulário, inserção de arquivo .txt e fechamento do popup)
+<h4> 2 - Alert: Browser Windows ✅  
+<h6> -(Abrir uma nova janela, validar a mensagem e fechar a janela)
 <h4> Elements: Web Tables ✅
 <h4> Widgets: Progress ✅
 <h4> Interactions: Sortable ✅

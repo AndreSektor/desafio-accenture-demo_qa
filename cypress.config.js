@@ -18,6 +18,8 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/step_definitions/*.feature",
     video: true, 
     videosFolder: 'cypress/videos',
-    pageLoadTimeout: 90000
+    pageLoadTimeout: 90000,
+    viewportWidth: 2000,
+    viewportHeight: 1300
   },
 });
