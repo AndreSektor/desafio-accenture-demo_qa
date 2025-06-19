@@ -23,6 +23,8 @@
     <a href="https://cypress.io/">Cypress</a>
     <br></br>
     <a href="https://www.npmjs.com/package/@faker-js/faker">Faker-NPM</a>
+    <br></br>
+    <a href="https://cucumber.io/docs/installation/javascript/">cucumber</a>
 </h1>
 
 ## Status do Projeto
@@ -34,7 +36,7 @@
 ### Pré-requisitos
 
 Antes de começar, instale as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e o [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable). 
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
 <br>
 Recomendamos o uso do VSCode para edição de código. [VSCode](https://code.visualstudio.com/).
 
@@ -51,16 +53,17 @@ $ git clone:
 HTTPS: 
 
 ```bash
-
+git clone https://github.com/AndreSektor/desafio-accenture-demo_qa.git
 ```
 
 - Com o terminal aberto instale as dependências rodando o comando:
 ```
-yarn
+npm install
 ```
-
-
-- Crie na raiz do projeto um arquivo "cypress.env.json" e preencha-o como no exemplo "template.env"
+<h2>
+<span style="color: red;">[ATENÇÃO]</span> 
+</h2>
+- Crie na raiz do projeto crie um arquivo "cypress.env.json" e preencha-o como no exemplo "template.env"(url encontra-se no próprio arquivo para fascilitar a execução do examinador do desafio).
 
 ## Features desenvolvidas
 
