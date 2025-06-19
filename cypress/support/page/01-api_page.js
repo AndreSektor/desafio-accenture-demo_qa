@@ -126,6 +126,4 @@ class ApiPage {
             });
         });
     }
-}
-
-export default new ApiPage();
+} export default new ApiPage();

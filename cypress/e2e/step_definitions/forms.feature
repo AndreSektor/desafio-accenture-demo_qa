@@ -1,6 +1,6 @@
 Feature: Fill out form
 
-  Scenario: Visiting the frontpage demoqa - FORMS
+  Scenario: Visiting the frontpage demoqa - Forms
     Given I visit demoqa.com
     When I choose the Forms option on the home page
     When I choose the Sub menu Practice Forms
