@@ -2,5 +2,5 @@
 package-lock.json
 /screenshots
 /downloads
-/videos
+videos/
 cypress.env.json

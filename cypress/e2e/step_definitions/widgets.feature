@@ -1,3 +1,4 @@
+@widgets    @regression
 Feature: Widgets - Progress Bar 
 
   Scenario: Visiting the frontpage demoqa - Widgets

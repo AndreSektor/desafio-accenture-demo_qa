@@ -1,3 +1,4 @@
+@alerts    @regression
 Feature: Validate new windows
 
   Scenario: Visiting the frontpage demoqa - Alerts, Frame & Windows

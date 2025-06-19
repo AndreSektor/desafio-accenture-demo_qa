@@ -1,3 +1,4 @@
+@elements    @regression
 Feature: Create table register
 
   Scenario: Visiting the frontpage demoqa - Elements web tables

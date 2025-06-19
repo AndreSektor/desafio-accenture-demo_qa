@@ -64,6 +64,12 @@ npm install
 <span style="color: red;">[ATENÇÃO]</span> 
 </h2>
 - Crie na raiz do projeto crie um arquivo "cypress.env.json" e preencha-o como no exemplo "template.env"(url encontra-se no próprio arquivo para fascilitar a execução do examinador do desafio).
+<h4>
+<span style="color: yellow;">[ALERTA]</span>
+</h4>
+-Cenário "iteractions", drag-and-drop para inverter a ordem das barras na tela.  
+Este cenário é sensível ao estado da aplicação e pode falhar.
+
 
 ## Features desenvolvidas
 
@@ -84,10 +90,12 @@ npm install
 <h6> -(Preenchimento completo do formulário, inserção de arquivo .txt e fechamento do popup)
 <h4> 2 - Alert: Browser Windows ✅  
 <h6> -(Abrir uma nova janela, validar a mensagem e fechar a janela)
-<h4> Elements: Web Tables ✅
-<h4> Widgets: Progress ✅
-<h4> Interactions: Sortable ✅
-
+<h4> 3- Elements: Web Tables ✅
+<h6> -(Cria um registro, edita o registro, deleta o registro) + (Cria 12 registros e deleta)
+<h4> 4 - Widgets: Progress ✅
+<h6> -(Inicia o progress bar, para em 25, valida que é menor que 25, continua até 100 e reinicia)
+<h4> 5 - Interactions: Sortable ✅
+<h6> -(Ordenação do maior para o menor com drag drop)
 </p>
 
 ### 🎲 Rodando os testes
@@ -101,6 +109,16 @@ npm run test
 npm run all
 ```
 
+### TAGS
+- Executar apenas um cenário com TAG(Comanda abaixo executa apenas os cenários de 'api')
+
+```bash
+npx cypress run --env TAGS=@api
+```
+- Executar todos os cenários
+```bash
+npx cypress run --env TAGS=@regression
+```
 
 
 ## Autor

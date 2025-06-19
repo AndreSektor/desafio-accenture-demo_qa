@@ -1,3 +1,4 @@
+@api    @regression
 Feature: Api demoqa
 
   Scenario: Api demoqa

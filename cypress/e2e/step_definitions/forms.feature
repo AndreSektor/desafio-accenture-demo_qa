@@ -1,3 +1,4 @@
+@forms    @regression
 Feature: Fill out form
 
   Scenario: Visiting the frontpage demoqa - Forms
