@@ -61,11 +61,12 @@ git clone https://github.com/AndreSektor/desafio-accenture-demo_qa.git
 npm install
 ```
 <h2>
-<span style="color: red;">[ATENÇÃO]</span> 
+<span style="color: red;">[ATENÇÃO]</span> <img src="https://cdn-icons-png.freepik.com/512/15638/15638163.png" width="32"/>
+
 </h2>
 - Crie na raiz do projeto crie um arquivo "cypress.env.json" e preencha-o como no exemplo "template.env"(url encontra-se no próprio arquivo para fascilitar a execução do examinador do desafio).
 <h4>
-<span style="color: yellow;">[ALERTA]</span>
+<span style="color: yellow;">[ALERTA]</span></span> <img src="https://cdn-icons-png.flaticon.com/512/7188/7188147.png"" width="32"/>
 </h4>
 -Cenário "iteractions", drag-and-drop para inverter a ordem das barras na tela.  
 Este cenário é sensível ao estado da aplicação e pode falhar.
